@@ -386,6 +386,11 @@ select {
     justify-content: space-between;
 }
 
+.paketUl {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .val {
     width: 100%;
     box-sizing: border-box;
