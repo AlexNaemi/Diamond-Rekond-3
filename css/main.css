@@ -22,12 +22,7 @@
     width: 100%;
 }
 
-#header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-}
+
 
 #header {
     position: fixed;
@@ -35,7 +30,6 @@
     width: 100%;
     z-index: 2;
     transition: background-color 0.3s ease;
-    /* Add a smooth transition effect */
 }
 
 .logo-container img {
@@ -87,6 +81,7 @@
 .main-nav a:hover {
     text-decoration: underline;
 }
+
 
 
 footer {
@@ -321,6 +316,12 @@ input {
     border-radius: 10px;
     color: #000236;
 }
+
+/* Style the disabled dates in the date input */
+input[type="date"]:disabled {
+    color: #808080; /* Grey color for disabled dates */
+  }
+  
 
 select {
     font-size: 20px;
